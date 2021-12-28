@@ -1,0 +1,170 @@
+.nav-1 {
+    display: flex;
+    background-color: orangered;
+    width: 100vw;
+    height: 18vh;
+}
+.Logo-box {
+    display: block;
+    font-family: Arial Bold;
+    font-size: x-large;
+    color: navajowhite;
+    text-align: left;
+    margin-bottom: 3vh;
+    margin-top: 0vh;
+    margin-left: 2vw;
+}
+.Shirts-Section {
+    font-family: serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+    width: 5.5vw;
+    margin-top: 7vh;
+    margin-left: 10vw;
+    margin-bottom: 7vh;
+    border-top: solid white;
+    border-left: solid white;
+    border-bottom: solid white;
+    border-right:solid white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.Bottoms-section, .Outfits-section {
+    font-family: serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+    width: 6vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left: 2vw;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
+}
+.Shoes-section {
+    font-family: serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+    width: 4.5vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left: 2vw;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
+}
+.Accessories-section {
+    font-family: serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+    width: 7vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left: 2vw;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
+}
+* {box-sizing:border-box}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: white;
+}
+.text {
+  color: black;
+  font-size: 45px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 17px;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.nav-2 {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: orangered;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+.nav-3 {
+  background-color: orangered;
+  color: white;
+  font-family: arial bold;
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline navajowhite;
+  margin-top: 5vh;
+}
