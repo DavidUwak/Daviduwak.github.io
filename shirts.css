@@ -1,0 +1,33 @@
+.html {
+    max-width: 100%;
+}
+.nav{
+    width: 100vw;
+    background-color: orangered;
+    height: 18vh;
+    color: navajowhite;
+    display: block;
+    font-size: 4vw;
+    text-align: center;
+    font-family: Courier;
+    margin-top: 7vh;
+}
+.big-box {
+    align-content: center;
+    display: inline-block;
+    border: solid black;
+    height: fit-content;
+    width: fit-content;
+    margin: 5vh;
+    align-items: center;
+}
+.small-box-1 {
+    height: 400px;
+    width: auto;
+    padding: 7px;
+}
+.small-box-2 {
+    height: 60px;
+    text-align: center;
+    padding: 7px;
+}
